@@ -1,0 +1,202 @@
+/* Reset de estilos */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, form, label, input, textarea, button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo geral */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333333;
+  text-align: left;
+}
+
+h1 {
+  font-size: 24px;
+  color: #000000;
+  text-align: left;
+}
+
+p {
+  font-size: 16px;
+  color: #333333;
+  text-align: left;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #f6f6f6;
+  padding: 35px;
+}
+
+header nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+header nav ul li a {
+  color: #2f2f2f;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+.banner {
+  background-color: #f6f6f6;
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  
+}
+.bannerdown {
+  background-color: #f6f6f6;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.charter-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.charter-image {
+  width: 200px;
+  height: 150px;
+}
+
+.agreement-container {
+  overflow: hidden; /* Limpa a flutuação */
+}
+
+.download-image {
+  float: right; /* Flutua a imagem para a direita */
+  margin-left: 10px; /* Define a margem esquerda entre a imagem e o texto */
+}
+
+section#home img {
+  display: block;
+  width: 250px;
+  height: 181px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+section h1, section h2, section h3 {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #2f2f2f;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+/* Estilo específico para o conteúdo */
+section#home {
+  background-color: #f9f9f9;
+  padding: 40px;
+  text-align: justify;
+}
+
+section#home h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+section#home p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+section#home h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+section#home h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+section#home a {
+  color: #2f2f2f;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+section#home a:hover {
+  text-decoration: underline;
+}
+
+section#home ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+section#home ul li {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+section#home form {
+  margin-top: 20px;
+}
+
+section#home label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+section#home input[type="text"],
+section#home input[type="email"],
+section#home textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+section#home input[type="submit"] {
+  background-color: #2f2f2f;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+section#home input[type="submit"]:hover {
+  background-color: #000;
+}

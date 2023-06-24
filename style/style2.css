@@ -1,0 +1,100 @@
+/* Reset de estilos */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, form, label, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Arial, sans-serif;
+  }
+  /* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333333;
+    text-align: left;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #000000;
+    text-align: left;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #333333;
+    text-align: left;
+  }
+
+.container {
+    font-family: Arial, sans-serif;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  /* Estilo para o header */
+  header {
+    background-color: #f6f6f6;
+    padding: 35px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  header nav ul li a {
+    color: #2f2f2f;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 40px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
